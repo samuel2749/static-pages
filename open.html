@@ -4,20 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Test</title>
+  <title>Open</title>
   <script
   src="https://code.jquery.com/jquery-1.12.4.min.js"
   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
   crossorigin="anonymous"></script>
 </head>
 <body>
-  <h1>test</h1>
-  <a href="#">open a new window</a>
+  <a href="#">close window</a>
   <script>
     $('a').on('click', function(e){
-      e.preventDefault();
-      // window.alert('test');
-      window.open('open.html');
+      window.close();
     })
   </script>
 </body>
